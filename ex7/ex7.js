@@ -65,4 +65,4 @@ function mostFrequentChar(str) {
 }
 
 //mostFrequentChar("zuriel yahav");
-module.exports = { mostFrequentChar }
+module.exports = mostFrequentChar; 
