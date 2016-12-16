@@ -1,27 +1,45 @@
 <html>
-	<head></head>
+	<head>
+		<style>
+		.add {
+
+			background-color: white;
+		}
+		.even {
+
+			background-color: gray;
+		}
+		.employee-name {
+
+			font-size: 34px;
+		}
+
+		</style>
+	</head>
 	<body>
 		<ol id="phonebook">
-			<li>
-				<span>
-					ohad kravchick
+			<li class="odd">
+				<span class="employee-name">
+					ooohad kravchick
 				</span>
-				<span>
-					347-346-2425  
+				<br /> 
+				<span class="employee-phone">
+					<a href="tel:347-346-2425">347-346-2425</a>
 				</span>
-				<span>
-					myok12@yahoo.com
+				<span class="employee-email">
+					<a href="emailto:myok12@yahoo.com">myok12@yahoo.com</a>
 				</span>
 			</li>
-			<li>
-				<span>
+			<li class="even">
+				<span class="employee-name">
 					zuriel yahav
 				</span>
-				<span>
-					050-9001564
+				<br /> 
+				<span class="employee-phone">
+					<a href="tel:0050-900156">0450-9001564</a>
 				</span>
-				<span>
-					zyahav@gmail.com
+				<span class="employee-email">
+					<a href="zyahav@gmail.com">zyahav@gmail.com</a>
 				</span>
 			</li>
 		</ol>
